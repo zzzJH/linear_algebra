@@ -12842,10 +12842,10 @@ OK
 
 
 
-<div id="68bb23e9-986a-4b0e-beeb-495047a4d85e"></div>
+<div id="cff64585-4bc7-430d-a875-c0b4409c1440"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#68bb23e9-986a-4b0e-beeb-495047a4d85e');
+var element = $('#cff64585-4bc7-430d-a875-c0b4409c1440');
 /* Put everything inside the global mpl namespace */
 window.mpl = {};
 
@@ -13674,10 +13674,10 @@ if (IPython.notebook.kernel != null) {
 
 
 
-<div id="801a572e-118f-42f4-9c72-2c6a78c654de"></div>
+<div id="7726c044-90c7-44a6-aeb5-f02f0e262df4"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#801a572e-118f-42f4-9c72-2c6a78c654de');
+var element = $('#7726c044-90c7-44a6-aeb5-f02f0e262df4');
 /* Put everything inside the global mpl namespace */
 window.mpl = {};
 
@@ -14578,16 +14578,48 @@ $$</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>TODO 证明:
 $$
-\frac{\partial E} {\partial m} = \frac{1} {2}\sum_{i=1}^{n}{(y_i - mx_i - b)^2}
+\frac{\partial E} {\partial m} = {\frac{1} {2}{(y_i - mx_i - b)^2}}
 $$</p>
 <p>$$
-\frac{\partial E} {\partial m} = \frac{1} {2\partial m}({(y - (m + {\partial m})x - b)^2} - {(y - mx - b)^2})
+\frac{\partial E} {\partial m} = {\frac{1} {2}{(y_i - mx_i - b)(y_i - mx_i - b)}}
 $$</p>
 <p>$$
-\frac{\partial E} {\partial b} = \frac{1} {2}\sum_{i=1}^{n}{(y_i - mx_i - b)^2}
+\frac{\partial E} {\partial m} = {\frac{1} {2}(y_i^2 + m^2x_i^2 + b^2 - 2y_imx_i + 2mx_ib - 2y_ib})
 $$</p>
 <p>$$
-\frac{\partial E} {\partial b} = \frac{1} {2\partial b}({(y - mx - (b + {\partial b}))^2} - {(y - mx - b)^2})
+\frac{\partial E} {\partial m} = {\frac{1} {2}(2mx_i^2 - 2y_ix_i + 2x_ib})
+$$</p>
+<p>$$
+\frac{\partial E} {\partial m} = mx_i^2 - y_ix_i + x_ib
+$$</p>
+<p>$$
+\frac{\partial E} {\partial m} = -x_i(y_i - mx_i- b)
+$$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$$
+\frac{\partial E} {\partial b} = {\frac{1} {2}{(y_i - mx_i - b)^2}}
+$$</p>
+<p>$$
+\frac{\partial E} {\partial b} = {\frac{1} {2}{(y_i - mx_i - b)(y_i - mx_i - b)}}
+$$</p>
+<p>$$
+\frac{\partial E} {\partial b} = {\frac{1} {2}(y_i^2 + m^2x_i^2 + b^2 - 2y_imx_i + 2mx_ib - 2y_ib})
+$$</p>
+<p>$$
+\frac{\partial E} {\partial b} = {\frac{1} {2}(2b + 2mx_i - 2y_i})
+$$</p>
+<p>$$
+\frac{\partial E} {\partial b} = b + mx_i - y_i
+$$</p>
+<p>$$
+\frac{\partial E} {\partial b} = -(y_i - mx_i - b)
 $$</p>
 
 </div>
@@ -14801,10 +14833,10 @@ $$</p>
 
 
 
-<div id="6740efee-9736-4ea0-9aee-01785e36aff0"></div>
+<div id="4406f246-e7d0-4a29-9721-f83de8220a09"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#6740efee-9736-4ea0-9aee-01785e36aff0');
+var element = $('#4406f246-e7d0-4a29-9721-f83de8220a09');
 /* Put everything inside the global mpl namespace */
 window.mpl = {};
 
@@ -15655,10 +15687,10 @@ if (IPython.notebook.kernel != null) {
 
 
 
-<div id="903ba8b9-2b8e-469a-b679-ba7521440529"></div>
+<div id="f5b78399-06f8-4fd4-bbeb-c39c0d768218"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#903ba8b9-2b8e-469a-b679-ba7521440529');
+var element = $('#f5b78399-06f8-4fd4-bbeb-c39c0d768218');
 /* Put everything inside the global mpl namespace */
 window.mpl = {};
 
@@ -16498,10 +16530,10 @@ if (IPython.notebook.kernel != null) {
 
 
 
-<div id="6fea183d-4276-43e2-8deb-338bd787ce8f"></div>
+<div id="43ea9cbd-4263-4e1d-81ad-a30bed94522d"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#6fea183d-4276-43e2-8deb-338bd787ce8f');
+var element = $('#43ea9cbd-4263-4e1d-81ad-a30bed94522d');
 /* Put everything inside the global mpl namespace */
 window.mpl = {};
 
